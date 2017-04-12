@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274B94C41E9EA15500A7B78C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B94C31E9EA15500A7B78C /* AppDelegate.swift */; };
+		274B94C81E9EA15500A7B78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274B94C71E9EA15500A7B78C /* Assets.xcassets */; };
+		274B94D31E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B94D21E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.swift */; };
+		274B94DD1E9EA48500A7B78C /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 274B94C61E9EA15500A7B78C /* application.js */; };
+		274B94DE1E9EA7FB00A7B78C /* mustache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 86AB9A7E7B185E0316DD2F6F /* mustache.min.js */; };
+		274B94DF1E9EA7FE00A7B78C /* EventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = 86AB9749BE02FD858B4B3BC6 /* EventHandler.js */; };
+		86AB981592ADA3E7945FACA5 /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB98493D539F4FC0E8DE9F /* ActionDispatcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274B94CF1E9EA15500A7B78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274B94B81E9EA15500A7B78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274B94BF1E9EA15500A7B78C;
+			remoteInfo = JavaScriptCallbackInSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274B94C01E9EA15500A7B78C /* JavaScriptCallbackInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCallbackInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274B94C31E9EA15500A7B78C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		274B94C61E9EA15500A7B78C /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		274B94C71E9EA15500A7B78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274B94C91E9EA15500A7B78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274B94CE1E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaScriptCallbackInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274B94D21E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptCallbackInSwiftTests.swift; sourceTree = "<group>"; };
+		274B94D41E9EA15500A7B78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AB9749BE02FD858B4B3BC6 /* EventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EventHandler.js; sourceTree = "<group>"; };
+		86AB98493D539F4FC0E8DE9F /* ActionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionDispatcher.swift; sourceTree = "<group>"; };
+		86AB9A7E7B185E0316DD2F6F /* mustache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mustache.min.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274B94BD1E9EA15500A7B78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B94CB1E9EA15500A7B78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274B94B71E9EA15500A7B78C = {
+			isa = PBXGroup;
+			children = (
+				274B94C21E9EA15500A7B78C /* JavaScriptCallbackInSwift */,
+				274B94D11E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests */,
+				274B94C11E9EA15500A7B78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274B94C11E9EA15500A7B78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274B94C01E9EA15500A7B78C /* JavaScriptCallbackInSwift.app */,
+				274B94CE1E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274B94C21E9EA15500A7B78C /* JavaScriptCallbackInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				274B94C31E9EA15500A7B78C /* AppDelegate.swift */,
+				274B94C71E9EA15500A7B78C /* Assets.xcassets */,
+				274B94C91E9EA15500A7B78C /* Info.plist */,
+				274B94C51E9EA15500A7B78C /* Supporting Files */,
+				86AB98493D539F4FC0E8DE9F /* ActionDispatcher.swift */,
+			);
+			path = JavaScriptCallbackInSwift;
+			sourceTree = "<group>";
+		};
+		274B94C51E9EA15500A7B78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274B94C61E9EA15500A7B78C /* application.js */,
+				86AB95E667D8D3BFB41D6EA7 /* 3rd Party */,
+				86AB914986908E9D8134122D /* JS */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274B94D11E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				274B94D21E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.swift */,
+				274B94D41E9EA15500A7B78C /* Info.plist */,
+			);
+			path = JavaScriptCallbackInSwiftTests;
+			sourceTree = "<group>";
+		};
+		86AB914986908E9D8134122D /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				86AB9749BE02FD858B4B3BC6 /* EventHandler.js */,
+			);
+			name = JS;
+			sourceTree = "<group>";
+		};
+		86AB95E667D8D3BFB41D6EA7 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				86AB9A7E7B185E0316DD2F6F /* mustache.min.js */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274B94BF1E9EA15500A7B78C /* JavaScriptCallbackInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274B94D71E9EA15500A7B78C /* Build configuration list for PBXNativeTarget "JavaScriptCallbackInSwift" */;
+			buildPhases = (
+				274B94BC1E9EA15500A7B78C /* Sources */,
+				274B94BD1E9EA15500A7B78C /* Frameworks */,
+				274B94BE1E9EA15500A7B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaScriptCallbackInSwift;
+			productName = JavaScriptCallbackInSwift;
+			productReference = 274B94C01E9EA15500A7B78C /* JavaScriptCallbackInSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274B94CD1E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274B94DA1E9EA15500A7B78C /* Build configuration list for PBXNativeTarget "JavaScriptCallbackInSwiftTests" */;
+			buildPhases = (
+				274B94CA1E9EA15500A7B78C /* Sources */,
+				274B94CB1E9EA15500A7B78C /* Frameworks */,
+				274B94CC1E9EA15500A7B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274B94D01E9EA15500A7B78C /* PBXTargetDependency */,
+			);
+			name = JavaScriptCallbackInSwiftTests;
+			productName = JavaScriptCallbackInSwiftTests;
+			productReference = 274B94CE1E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274B94B81E9EA15500A7B78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BarryBryant;
+				TargetAttributes = {
+					274B94BF1E9EA15500A7B78C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					274B94CD1E9EA15500A7B78C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 274B94BF1E9EA15500A7B78C;
+					};
+				};
+			};
+			buildConfigurationList = 274B94BB1E9EA15500A7B78C /* Build configuration list for PBXProject "JavaScriptCallbackInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 274B94B71E9EA15500A7B78C;
+			productRefGroup = 274B94C11E9EA15500A7B78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274B94BF1E9EA15500A7B78C /* JavaScriptCallbackInSwift */,
+				274B94CD1E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274B94BE1E9EA15500A7B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274B94C81E9EA15500A7B78C /* Assets.xcassets in Resources */,
+				274B94DE1E9EA7FB00A7B78C /* mustache.min.js in Resources */,
+				274B94DF1E9EA7FE00A7B78C /* EventHandler.js in Resources */,
+				274B94DD1E9EA48500A7B78C /* application.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B94CC1E9EA15500A7B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274B94BC1E9EA15500A7B78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274B94C41E9EA15500A7B78C /* AppDelegate.swift in Sources */,
+				86AB981592ADA3E7945FACA5 /* ActionDispatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B94CA1E9EA15500A7B78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274B94D31E9EA15500A7B78C /* JavaScriptCallbackInSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274B94D01E9EA15500A7B78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274B94BF1E9EA15500A7B78C /* JavaScriptCallbackInSwift */;
+			targetProxy = 274B94CF1E9EA15500A7B78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		274B94D51E9EA15500A7B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		274B94D61E9EA15500A7B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274B94D81E9EA15500A7B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JavaScriptCallbackInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.JavaScriptCallbackInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		274B94D91E9EA15500A7B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JavaScriptCallbackInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.JavaScriptCallbackInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		274B94DB1E9EA15500A7B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaScriptCallbackInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.JavaScriptCallbackInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScriptCallbackInSwift.app/JavaScriptCallbackInSwift";
+			};
+			name = Debug;
+		};
+		274B94DC1E9EA15500A7B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaScriptCallbackInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.JavaScriptCallbackInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScriptCallbackInSwift.app/JavaScriptCallbackInSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274B94BB1E9EA15500A7B78C /* Build configuration list for PBXProject "JavaScriptCallbackInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274B94D51E9EA15500A7B78C /* Debug */,
+				274B94D61E9EA15500A7B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274B94D71E9EA15500A7B78C /* Build configuration list for PBXNativeTarget "JavaScriptCallbackInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274B94D81E9EA15500A7B78C /* Debug */,
+				274B94D91E9EA15500A7B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274B94DA1E9EA15500A7B78C /* Build configuration list for PBXNativeTarget "JavaScriptCallbackInSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274B94DB1E9EA15500A7B78C /* Debug */,
+				274B94DC1E9EA15500A7B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274B94B81E9EA15500A7B78C /* Project object */;
+}
